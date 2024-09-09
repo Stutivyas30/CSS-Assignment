@@ -1,0 +1,117 @@
+/*{
+    padding: 0;
+    margin: 0;
+}*/
+
+
+h1{
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 60px;
+    
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    
+    
+}
+
+header {
+    
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 80px;
+    
+  }
+
+  nav a{
+    margin-left: 30px;
+  }
+
+ .button a {
+  background: #ECE5FF; ;
+  color:#794CFF;
+  height: 20px;
+  width: fit-content;
+  margin-right: 100px;
+}
+
+.part1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding-top: 20px;
+}
+.part1 h5{
+   color: white;
+   background-color: #81C43B;
+   border-radius: 10px;
+   height: 22px;
+   width: 70px;
+   display: flex;
+   justify-content: center;
+}
+
+.part1 h6{
+   background-color: #F2F9EB;
+   display: flex;
+   
+}
+
+h2{
+  display: flex;
+  justify-content: center;
+}
+
+p{
+  display: flex;
+  justify-content: center;
+}
+
+section2{
+  display: flex;
+  justify-content: center;
+}
+
+input{
+  display: flex;
+  justify-content: center;
+  height: 20px;
+  width: 154px;
+}
+.box1{
+  height: 25px;
+  width: 100px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center ;
+  background-color: #794CFF;
+}
+
+img{
+  margin-left: 300px;
+  margin-top: 30px;
+  height: 500px;
+  width: 650px;
+  display: flex;
+}
+
+.line1{
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.icon {
+    display: flex;
+    gap: 40px;
+    margin: 20px 60px;
+    height: 10%;
+    width: 10%;
+}
+
