@@ -1,0 +1,201 @@
+.section1 {
+  display: flex;
+}
+.header {
+  height: 40px;
+  width: 120px;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.menu {
+  height: 40px;
+  width: 350px;
+  background-color: red;
+  color: white;
+  text-align: center;
+}
+
+.Hero {
+  height: 300px;
+  width: 470px;
+  background-color: lightblue;
+  color: white;
+  text-align: center;
+}
+
+.section2 {
+  display: flex;
+}
+
+.Main {
+  height: 150px;
+  width: 220px;
+  background: darkblue;
+  color: white;
+  text-align: center;
+}
+
+.blank {
+  height: 150px;
+  width: 120px;
+  background-color: white;
+}
+
+.Image {
+  height: 75px;
+  width: 130px;
+  background-color: rgba(144, 238, 144, 0.598);
+  text-align: center;
+}
+
+.Extra {
+  height: 75px;
+  width: 130px;
+  background-color: green;
+  text-align: center;
+}
+
+.section {
+  display: flex;
+}
+
+.Banner {
+  height: 50px;
+  width: 470px;
+  background-color: yellow;
+  color: black;
+  text-align: center;
+}
+
+@media (min-width:900px) {
+     .section1 .header {
+      width: 500px;
+     }
+
+     .menu{
+      width: 500px;
+     }
+    }
+
+
+ @media (min-width:700px){
+      
+      .section1 {
+        position: relative;
+      }
+      .section1 .header{
+        width: 400px
+      }
+
+      .menu{
+         height: 275px;
+         width: 50px;
+         position: absolute;
+         left: 0px;
+         top: 240px;
+      }
+
+      .Hero{
+        height: 200px;
+        width: 400px
+      }
+
+      .Main {
+        width: 400px;
+        height: 150px;
+      }
+
+      .blank{
+        display: none;
+      }
+
+      .Banner{
+        width: 400px
+      }
+
+      .section3{
+        position: relative;
+      }
+
+      .Image {
+        position: absolute;
+        top: 200px;
+        right: 0px;
+      }
+
+      .Extra{
+        width: 220px;
+        position: absolute;
+        top: 200px;
+        right: 130px;
+      }
+ }
+
+
+ @media (max-width:400px){
+       
+        .main-section{
+          display: flex;
+          flex-direction: column;
+          position: relative;
+        }
+
+        .section1{
+          display: flex;
+          flex-direction: column;
+        }
+        .header{
+          height: 50px;
+          width: 400px;
+        }
+
+        .menu{
+          height: 50px;
+          width: 400px;
+        }
+
+        .Hero{
+          height: 100px;
+          width: 400px;
+        }
+
+        .section2{
+          display: flex;
+          flex-direction: column;
+        }
+
+        .Main{
+          height: 100px;
+          width: 400px;
+        }
+
+        .blank{
+          display: none;
+        }
+
+        .Banner{
+          height: 50px;
+          width: 400px;
+          position: absolute;
+          bottom: -50px;
+        }
+
+        .Extra{
+          height: 50px;
+          width: 400px;
+          position: absolute;
+          bottom: -100px;
+          left: 1px;
+        }
+
+        .Image{
+          height: 50px;
+          width: 400px;
+          position: absolute;
+          bottom: -150px;
+          left: 1px;
+        }
+ }
+
