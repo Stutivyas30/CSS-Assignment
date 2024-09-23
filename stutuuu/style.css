@@ -1,0 +1,257 @@
+:root {
+    --color: #794CFF;
+    --color2: #ECE5FF;
+
+    --padding: 10px;
+
+}
+
+header {
+    width: 100%;
+    display: flex;
+    margin: 0px auto;
+   
+}
+
+span .material-symbols-outlined {
+    display: none;
+}
+
+body header nav{
+    width: 100%;
+    margin: 0px auto;
+    display: flex;
+    gap: 150px;
+}
+
+header nav .heding {
+    text-decoration: none;
+    color: #000000c4;
+    display: flex;
+    gap: 60px;
+    
+}
+
+
+
+.btn1 button {
+    background-color: var(--color2);
+    padding: 6px 10px;
+    border: #ECE5FF;
+    color: var(--color);
+}
+
+main {
+    margin: 0px auto;
+    width: 100%;
+}
+
+.main1 {
+    display: flex;
+}
+
+.main1 h4 {
+    color: white;
+    background-color: #81C43B;
+    border-radius: 9px;
+    width: fit-content;
+    padding: 2px 5px;
+}
+
+.main1 h5 {
+    color: grey;
+    background-color: #F2F9EB;
+    border-radius: 10px;
+    width: fit-content;
+    padding: 2px 10px;
+}
+
+.content1 h1 {
+    color: #35414B;
+    padding: 5px 10px;
+    font-size: 45px;
+    font-weight: 70px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+.content1 p {
+    color: #35414B;
+    padding: 5px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+.btn2 {
+    display: flex;
+    
+
+}
+
+.btn2 input {
+    padding: 8px 20px;
+    color: #35414B;
+    background-color: white;
+    border: 1px solid #0405058a;
+}
+
+.btn2 a {
+    padding: 8px 15px;
+    background-color: #5825f3;
+    color: white;
+    text-decoration: none;
+}
+
+main .outer {
+    display: flex;
+    width: 100%;
+}
+
+main .graph1 img {
+    height: 600px;
+}
+
+ main .line p {
+    margin: 0px auto;
+    margin-top:30px ;
+}
+
+.icon img {
+    margin: 0px auto;
+}
+
+main section .imges1 {
+     display: flex;
+    width: 100%;
+     margin: 0px auto;
+     margin-top: 40px;
+    background-color: #F0EBFA;
+    border: 1px solid #80808031; 
+}
+
+
+.title {
+    width: 100%;
+  
+}
+
+main .yourwork {
+    display: flex;
+}
+
+.yourwork1 {
+    display: flex;
+}
+
+
+
+.work {
+    display: flex;
+    width: 100%;
+    background-color: #F0EBFA;
+    align-items: center;
+    gap: 10px;
+    margin-top: 50px;
+}
+
+
+
+.everyday button {
+    color: white;
+    background-color: #796EFF;
+    border: 1px solid#796EFF;
+    padding: 8px 8px;
+}
+
+.graph2 {
+    margin-right: 170px;
+}
+
+.graph2 img {
+    height: 300px;
+}
+
+.last {
+   margin: 0px auto;
+    font-size: 20px;
+
+}
+
+.lasticone {
+    display: flex;
+    position: relative;
+    width: 100%;
+}
+.lasticone .icon1 img{
+  position: absolute;
+  left: 290px;
+}
+.lasticone .icon2 img{
+    position: absolute;
+    left: 530px;
+  }
+  .lasticone .icon3 img{
+    position: absolute;
+    left: 790px;
+  }
+
+.section7 {
+    height: 150px;
+    width: 100%;
+    margin: 0px auto;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #796EFF;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+}
+
+.section8 {
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    justify-content: space-evenly;
+    background-color: #35414B;
+    color: whitesmoke;
+   
+}
+
+.section8 .company,
+.support,
+.legal {
+    display: flex;
+    flex-direction: column;
+    padding-top: 25px;
+    align-items: start;
+    gap: 20px;
+
+}
+
+.section8 a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.end {
+    display: flex;
+    padding: 30px 50px 3px 150px;
+    margin-top: 1px;
+    gap: 700px;
+    background-color: #35414B;
+    color: white;
+}
+
+
+.icon {
+    display: flex;
+    gap: 20px;
+}
