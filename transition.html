@@ -5,6 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+
+        .box{
+            height: 200px;
+            width: 900px;
+            border: 2px solid black;
+            background-image: url(https://images.pexels.com/photos/681118/pexels-photo-681118.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+            background-position: end;
+            
+        }
         .ball{
             height: 50px;
             width: 50px;
@@ -16,19 +25,28 @@
             top: 50px;
             transition:  3000ms;
             transition-timing-function: ease-in-out;
-            
+            background-image: url(https://images.pexels.com/photos/2471259/pexels-photo-2471259.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+            background-position: end;
+
 
         }
 
-        .ball:hover{
+        .box:hover{
+            .ball{
+
+           
             transform: translatex(600px);
             height: 150px;
             width: 150px;
             border-radius: 80px;
+            
+            }
         }
     </style>
 </head>
 <body>
+    <div class="box">
     <div class="ball"></div>
+</div>
 </body>
 </html>
